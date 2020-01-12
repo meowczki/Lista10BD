@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="Laureat" table="laureaci">
+        <id name="idAktora" type="java.lang.String" column="idAktora">
+            <generator class="assigned"></generator>  <!-- automatyczna generacja klucza glownego -->
+        </id>
+
+        <property name="rokPrzyznania" column="rokPrzyznania"></property>
+
+        <property name="wiekAktora" column="wiekAktora"></property>
+            <property name="imieINazwisko" column="imieINazwisko"></property>
+   <property name="nazwaFilmu" column="nazwaFilmu"></property>
+        <property name="plec" column="plec"></property>
+
+
+    </class>
+
+</hibernate-mapping>
+

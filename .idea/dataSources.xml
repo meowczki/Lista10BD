@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="2da1a47f-7e15-4cf7-a9ac-6de49fae288f">
+      <driver-ref>mysql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+/home/aleksandra/IdeaProjects/Lista10BD/src/main/resources/hibernate.cfg.xml</remarks>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/oskary?useTimezone=true&amp;serverTimezone=CET</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="oskary@localhost" uuid="26c7fa75-9526-4aa2-a5f7-bdbdfb392a73">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/oskary</jdbc-url>
+    </data-source>
+  </component>
+</project>
